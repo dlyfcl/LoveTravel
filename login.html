@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+     <div class="login">
+         <div class="login-left">
+             <p>发现更多精彩!</p>
+             <img src="upload/log1.jpg" alt="" class="img1">
+             <img src="upload/log2.jpg" alt="" class="img2">
+             <img src="upload/log3.jpg" alt="" class="img3">
+             <img src="upload/log4.jpg" alt="" class="img4">
+         </div>
+         <div class="login-right">
+             <p>用户登录</p>
+             <input type="text" placeholder="微博账号/QQ号码/电子邮箱" id="login-username" name="login-username">
+             <input type="password" placeholder="密码" id="login-pwd" name="login-pwd">
+             <input type="button" id="login" value="登录">
+             <input type="checkbox" id="login-chx" name="login-chx">
+             <span>下次自动登录</span>
+             <div class="logintype">
+                 <img src="images/head.png" alt="">
+             </div>
+             <div class="logintype2">
+                 <img src="images/head.png" alt="">
+             </div>
+             <ul>
+                 <li><a href="#">忘记密码？</a></li>
+                 <li><span>|</span></li>
+                 <li><a href="register.html">注册新账号</a></li>
+                 <li><span>|</span></li>
+                 <li><a href="#">意见反馈</a></li>
+             </ul>
+         </div>
+     </div>
+     <footer>
+         <p>版权所有&nusp&copy爱旅行</p>
+     </footer>
+     <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+     <script type="text/javascript">
+         $(function(){
+             function setCookie(key,value,time){
+                 var oDate = new Date();
+                 oDate.setDate(oDate.getDate() + time);
+                 document.cookie=key+'='+encodeURI(value)+';expires='+oDate.toGMTString();
+             }
+             //获取cookie
+             function getCookie(key){
+                 var arr1 = document.cookie.split('; ');
+                 for(var i=0;i<arr1.length;i++){
+                     var arr2  = arr1[i].split('=');
+                     if(arr2[0]==key){
+                         return decodeURI(arr2[1]);
+                     }
+                 }
+             }
+//---登录按钮
+             $('#login-username').on('focus',function(){
+                 $('#login-username').val(getCookie('username'));
+             });
+             $('#login').on('click',function(){
+                 if($('#login-username').val()==getCookie('username')&&$('#login-pwd').val()==getCookie('pwd')){
+                     self.location='http://localhost:63342/webstrom%E7%9A%84%E9%A1%B9%E7%9B%AE/1-%E7%88%B1%E6%97%85%E6%B8%B8/index.html?_ijt=qvi24p0ergo00p883np2esak17';
+                 }else {
+                     alert("用户名或密码错误");
+                 }
+             });
+         });
+     </script>
+
+</body>
+</html>

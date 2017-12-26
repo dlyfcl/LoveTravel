@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url("../images/wallpaper.jpg");
+}
+.register{
+    width: 800px;
+    height: 300px;
+    margin: 260px auto;
+    padding: 20px;
+    background: white;
+}
+.register p{
+    font-size: 18px;
+    font-family: 黑体;
+    font-weight: bold;
+    text-align: center;
+    color: #2B333F;
+    width: 80px;
+    border-bottom: 5px solid #7FC92C;
+}
+.register .register-left{
+    width: 50%;
+    float: left;
+    height: 100%;
+    border-right: 1px dotted lightgrey;
+}
+.register .register-left .box{
+    height:50px;
+    line-height: 50px;
+    padding-left:10px;
+    border-radius: 5px;
+    position: relative;
+}
+#mmm{
+    margin-top: 10px;
+}
+.register .register-left .register-box{
+    height: 60px;
+    width: 98%;
+}
+/*box--输入信息错误*/
+.register-box .box.error{
+    border:1px solid red;
+}
+/*box--输入信息正确*/
+.register-box .box.right i{
+    width:20px;
+    height: 20px;
+    background: url("../img/right.png") center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:50%;
+    right:10px;
+    margin-top:-10px;
+}
+.register-box .tip.default i{
+    background-size: cover;
+    background: url("../img/default.png") center center no-repeat;
+}
+.register-box .tip.default span{
+    font-size: 12px;
+    color:gray;
+}
+/*tip--错误样式*/
+.register-box .tip.error i{
+    background-size: cover;
+    background: url("../img/error.png") center center no-repeat;
+}
+.register-box .tip.error span{
+    color:red;
+    font-family: 黑体;
+    font-size: 12px;
+}
+.register .register-left span{
+    color: #9CA0AE;
+    font-family: 黑体;
+    font-size: 16px;
+}
+.register .register-left input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #9CA0AE;
+    border-radius: 5px;
+}
+.register-box .tip{
+    padding-left:10px;
+    width: 90%;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+}
+.register-box .tip i{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.register-box .tip span{
+    color:gray;
+}
+/*提示信息默认样式*/
+.register-box .tip.hide{
+    display: none;
+}
+
+.register .register-left #register{
+    width: 100px;
+    border: none;
+    height: 36px;
+    border-radius: 5px;
+    margin: 5px 150px;
+    color: white;
+    background: #7FC92C;
+}
+.register .register-right{
+    width: 49%;
+    float: left;
+    height: 100%;
+}
+.register .register-right p{
+    margin-left: 20px;
+ }
+.register .register-right div{
+    position: relative;
+    margin: 20px;
+    width: 370px;
+    height: 200px;
+    overflow: hidden;
+ }
+.register .register-right div img{
+    position: absolute;
+    top: -106px;
+    left: -291px;
+}
+.register .register-right a{
+    float: right;
+    font-size: 12px;
+    font-family: 黑体;
+}

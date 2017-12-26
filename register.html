@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+     <div class="register">
+         <div class="register-left">
+             <p>普通注册</p>
+             <div class="register-box" id="mmm">
+                 <div class="box">
+                     <span>邮箱地址：</span>
+                     <input type="text" id="register-email" name="register-email">
+                     <!--正确提示信息-->
+                     <i></i>
+                 </div>
+                 <!--信息提示项-->
+                 <div class="tip">
+                     <i></i>
+                     <span></span>
+                 </div>
+             </div>
+             <div class="register-box">
+                 <div class="box">
+                     <span>密&nbsp&nbsp&nbsp&nbsp码：</span>
+                     <input type="password" id="register-pwd" name="register-pwd">
+                     <!--正确提示信息-->
+                     <i></i>
+                 </div>
+                 <!--信息提示项-->
+                 <div class="tip">
+                     <i></i>
+                     <span></span>
+                 </div>
+             </div>
+             <div class="register-box">
+                 <div class="box">
+                     <span>确认密码：</span>
+                     <input type="password" id="register-pwd2" name="register-pwd2">
+                     <i></i>
+                 </div>
+                 <div class="tip">
+                     <i></i>
+                     <span></span>
+                 </div>
+             </div>
+             <input type="button" id="register" onclick="checkData()" value="注册"></input>
+         </div>
+         <div class="register-right">
+             <p>快速注册</p>
+             <div>
+                 <img src="images/head.png" alt="">
+             </div>
+             <a href="login.html">已有账号，现在去登录!</a>
+         </div>
+     </div>
+     <script src="js/login-reister.js" type="text/javascript"></script>
+     <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+</body>
+</html>

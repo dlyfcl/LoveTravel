@@ -1,0 +1,44 @@
+.wrapper{
+    padding:10px 100px;
+}
+.wrapper img {
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+}
+.wrapper p{
+    padding:5px;
+    color: #81725B;
+    text-indent: 2em;
+    font-size:14px;
+    font-family: 黑体;
+    letter-spacing: 2px;
+}
+.wrapper .box {
+    position: relative;
+}
+
+.wrapper .inner{
+    width: 228px;
+    position: absolute;
+    cursor: pointer;
+}
+.wrapper .inner .mask{
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.wrapper .tips {
+    width:500px;
+    height:40px;
+    margin:20px auto;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size:16px;
+    cursor: pointer;
+    background:white;
+}

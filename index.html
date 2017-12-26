@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/video-js.css">
+</head>
+<body>
+    <div class="wrap">
+        <!--音乐 -->
+        <audio id="player" src="audio/Panama.mp3" preload="preload" loop="loop" autoplay="autoplay"></audio>
+        <header>
+            <!--头部-->
+            <div class="nav clearfix">
+                <ul class="nav-left clearfix">
+                    <li><a href="#">客户端</a></li>
+                    <li><img src="images/bg-line.png" alt=""></li>
+                    <li><a href="#">手机版</a></li>
+                    <li><img src="images/bg-line.png" alt=""></li>
+                    <li><a href="#">收集工具</a></li>
+                </ul>
+                <ul class="nav-right clearfix">
+                    <li><a href="login.html">登录</a></li>
+                    <li><a href="register.html">注册</a></li>
+                    <li><img src="images/icon_bg.png" alt=""></li>
+                    <li><img src="images/icon_bg.png" alt=""></li>
+                    <li></li>
+                    <li id="firstlogin"><a href="#">请先登录</a></li>
+                </ul>
+            </div>
+            <!--导航栏-->
+            <div class="navbar clearfix">
+                <a href="index.html"> <img src="images/logo.png" alt=""></a>
+                <ul>
+                    <li><a href="article-list-1.html">广播</a></li>
+                    <li><img src="images/nav-line.png" alt=""></li>
+                    <li><a href="article-list.html">发现</a></li>
+                    <li><a href="article-list-1.html">文章</a></li>
+                    <li><a href="article-list.html">心情</a></li>
+                    <li><img src="images/nav-line.png" alt=""></li>
+                    <li><a href="article-list-1.html">专辑</a></li>
+                    <li><a href="article-list.html">生活</a></li>
+                    <li><a href="article-list-1.html">时尚</a></li>
+                    <li><img src="images/nav-line.png" alt=""></li>
+                    <li><a href="article-list-1.html">兴趣</a></li>
+                    <li><img src="images/nav-line.png" alt=""></li>
+                    <li><a href="article-list.html">Wiki</a></li>
+                    <li><img src="images/nav-line.png" alt=""></li>
+                    <li><a href="article-list-1.html">小组</a></li>
+                </ul>
+                <div class="search">
+                    <input type="text">
+                    <div class="search-img">
+                        <img src="images/head.png" alt="">
+                    </div>
+                </div>
+                <div id="music">
+                </div>
+            </div>
+        </header>
+        <div class="top">
+            <!--左边-->
+            <div class="main">
+                <!--动画效果-->
+                <div class="swiper-container" dir="rtl">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <!--class="swiper-lazy"---图片懒加载-->
+                            <img src="upload/pic1.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic2.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic3.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic4.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic5.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic6.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic7.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic8.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic9.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="upload/pic10.jpg" alt="" class="swiper-lazy" />
+                        </div>
+                    </div>
+                    <!--分页-->
+                    <div class="swiper-pagination swiper-pagination-white"></div>
+                    <!--滚动条-->
+                    <div class="swiper-scrollbar swiper-pagination-white"></div>
+                </div>
+                <!--生活-->
+                <section id="life">
+                    <p>生活<span>更多>></span></p>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img1.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img2.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img3.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img4.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img5.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img6.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                </section>
+                <!--时尚-->
+                <section id="fashion">
+                    <p>时尚<span>更多>></span></p>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img1.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img2.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img3.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img4.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img5.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img6.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                </section>
+                <!--兴趣-->
+                <section id="interest">
+                    <p>兴趣<span>更多>></span></p>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img1.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img2.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img3.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img4.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img5.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall.html">
+                            <img src="upload/img6.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                </section>
+                <section id="fashion2">
+                    <p>时尚<span>更多>></span></p>
+                    <figure>
+                        <a href="waterfall-lazyload.html">
+                            <img src="upload/img1.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall-lazyload.html">
+                            <img src="upload/img2.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall-lazyload.html">
+                            <img src="upload/img3.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall-lazyload.html">
+                            <img src="upload/img4.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall-lazyload.html">
+                            <img src="upload/img5.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="waterfall-lazyload.html">
+                            <img src="upload/img6.jpg" alt="" />
+                            <div class="mask"><span>经典美文，共20张</span></div>
+                        </a>
+                    </figure>
+                </section>
+            </div>
+            <!--右边-->
+            <div class="top-right">
+                <!--热门-->
+                <div class="hot">
+                    <h1>热门推荐</h1>
+                    <img src="upload/img1.jpg" />
+                    <div class="title-pu">
+                        <span><h2>标题：</h2>普罗旺斯</span>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普罗旺斯从诞生之日起，就谨慎地保守着他的密码，天气阴晴不定，暖风和煦，海风狂野，地势跌宕起伏，平原广阔，峰岭险峻，寂寞的峡谷，苍凉的古堡，蜿蜒的山脉和活泼的都会，全都在这篇法国的大地上演绎万种风情。</p>
+                    </div>
+                </div>
+                <!--标语-->
+                <div class="label">
+                    <span>热门推荐</span>
+                    <ul class="labels">
+                        <li>
+                            <h3>标签</h3>
+                            <h1>登山</h1>
+                            <h1>自驾车</h1>
+                            <h2>骑车</h2></li>
+                        <li>
+                            <h2>自然</h2>
+                            <h1>徒步</h1>
+                            <h1>兴趣</h1>
+                            <h3>心情</h3>
+                            <h2>户外</h2></li>
+                        <li>
+                            <h3>景色</h3>
+                            <h1>大海</h1>
+                            <h2>骑车</h2>
+                            <h3>大海</h3></li>
+                        <li>
+                            <h1>徒步</h1>
+                            <h1>天气</h1>
+                            <h3>心情</h3>
+                            <h2>景色</h2>
+                            <h2>景色</h2> </li>
+                        <li>
+                            <h3>驴友</h3></li>
+                    </ul>
+                </div>
+                <!--视频-->
+                <div class="video clearfix">
+                    <video id="video" height="200" class="video-js vjs-big-play-centered vjs-default-skin" controls="controls" data-setup="{ }">
+                        <source src="video/movie.mp4">
+                        <source src="video/movie.ogg">
+                        <source src="video/movie.webm">
+                        sorry your mom died
+                    </video>
+                    <div>
+                        <span>
+                            我想要- 次旅行，到处留下足迹和你一起，我在别人眼里你在我心<br>
+                         里，我想要一次旅行，不留任何是迹，独自一起。我在你的记忆，却不在
+                         你的心里。我们一起走过过去和现在。
+                        </span>
+                    </div>
+                </div>
+                <!--主题-->
+                <div class="theme clearfix">
+                    <div class="theme-top">
+                        <span class="left">主题活动</span>
+                        <span class="right">更多>></span>
+                    </div>
+                    <img src="upload/act1.gif" />
+                    <h1>晒晒你的DIY成果[一周一主题]</h1>
+                    <p>截止日期：2013年8月31日</p>
+                </div>
+                <!--旅行-->
+                <div class="wuyu clearfix">
+                    <div class="wuyu-top clearfix">
+                        <span class="left">旅行日志</span>
+                        <span class="right">更多>></span>
+                    </div>
+                    <ul class="wuyu-ul">
+                        <li class="two clearfix">
+                            <img src="upload/arc1.jpg" />
+                            <div class="two-two">
+                                <span>远行，流浪</span>
+                                <span>推荐书：362</span>
+                            </div>
+                        </li>
+                        <li class="line"><span>带着年轻的心去流浪</span></li>
+                        <li class="line"><span>带着年轻的心去流浪</span></li>
+                        <li class="line"><span>带着年轻的心去流浪</span></li>
+                        <li class="line"><span>带着年轻的心去流浪</span></li>
+                        <li class="line"><span>带着年轻的心去流浪</span></li>
+                        <li class="line"></li>
+                    </ul>
+                </div>
+                <!--会员-->
+                <div class="wuyu clearfix">
+                    <div class="wuyu-top clearfix">
+                        <span class="left">活跃会员</span>
+                    </div>
+                    <ul class="wuyu-ul">
+                        <li class="two clearfix">
+                            <img src="photos/use1.jpg" />
+                            <div class="two-two">
+                                <span>作响_</span>
+                                <span>发布 30 专辑 5</span>
+                            </div>
+                        </li>
+                        <li class="two clearfix">
+                            <img src="photos/use2.jpg" />
+                            <div class="two-two">
+                                <span>大帽子</span>
+                                <span>发布 13 专辑 3</span>
+                            </div>
+                        </li>
+                        <li class="two clearfix">
+                            <img src="photos/use3.jpg" />
+                            <div class="two-two">
+                                <span>Honey米儿</span>
+                                <span>发布 16 专辑 2</span>
+                            </div>
+                        </li>
+                        <li class="two clearfix">
+                            <img src="photos/use4.jpg" />
+                            <div class="two-two">
+                                <span>如毛挽君</span>
+                                <span>发布 21 专辑 2</span>
+                            </div>
+                        </li>
+                        <li class="two clearfix">
+                            <img src="photos/use5.jpg" />
+                            <div class="two-two">
+                                <span>雪木其</span>
+                                <span>发布 23 专辑 4</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--关注-->
+                <div class="wuyu clearfix">
+                    <div class="wuyu-top clearfix">
+                        <span class="left">关注我们</span>
+                    </div>
+                    <div class="group">
+                        <div><img src="images/sites.png" alt=""></div>
+                        <div><img src="images/sites.png" alt=""></div>
+                        <div><img src="images/sites.png" alt=""></div>
+                        <div><img src="images/sites.png" alt=""></div>
+                        <div><img src="images/sites.png" alt=""></div>
+                        <div><img src="images/sites.png" alt=""></div>
+                        <div class="weixin">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>版权所有&nusp&copy爱旅行</p>
+        </footer>
+        <!--返回头部-->
+        <div class="back-top">
+            <i class="fa fa-arrow-up fa-2x"></i>
+            <p>返回顶部</p>
+        </div>
+        <!--意见反馈-->
+        <div class="suggestion">
+            <i class="fa fa-arrow-up fa-2x"></i>
+            <p>意见反馈</p>
+        </div>
+    </div>
+    <script src='js/jquery-1.8.3.min.js'></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/video.min.js"></script>
+    <script type="text/javascript" src="js/auto-showname.js"></script>
+    <script type="text/javascript">
+        var mySwiper = new Swiper('.swiper-container',{
+            loop: true,//---循环播放
+            autoplay: 2000,//---动画间隔时间
+            speed:1000,//---动画运动速度
+            pagination: '.swiper-pagination',//---显示分页
+            paginationClickable: true,//---分页可以点击触发
+            //direction: 'vertical'//---垂直方向运动
+            spaceBetween: 30,//---slider之间的间隔
+            scrollbar: '.swiper-scrollbar',//---滚动条控制
+            scrollbarHide: false,//---显示滚动条
+            coverflow: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true
+            }
+        });
+
+        //---鼠标滑过停止
+        $(".swiper-container").mouseenter(function (){//滑过悬停
+            mySwiper.stopAutoplay();//mySwiper 为上面你swiper实例化的名称
+        }).mouseleave(function(){//离开开启
+            mySwiper.startAutoplay();
+        });
+
+        //图片导航
+        $(function(){
+    //        导航栏固定
+            var Height = $(".nav").height();
+            $(window).scroll(function (){
+                var docScrollTop = $(document).scrollTop();
+                if(docScrollTop>Height){
+                    $(".navbar").css({
+                        position:"fixed",
+                        background:"rgba(0,0,0,0.7)",
+                        top:"0"
+                    });
+                    $(".navbar").children("ul").children("li").children("a").css({
+                        color:"white"
+                    })
+                }else {
+                    $(".navbar").css({
+                        background:"",
+                        position:"static"
+                    });
+                    $(".navbar").children("ul").children("li").children("a").css({
+                        color:"gray"
+                    })
+                }
+                //---控制返回头部的显隐
+                var ScrollHeight = $(window).scrollTop();
+                var Client = document.body.offsetHeight / 8;
+                if (ScrollHeight > Client) {
+                    $('.back-top').fadeIn(400);
+                } else {
+                    $('.back-top').fadeOut(400);
+                }
+                var player = $('#player')[0];
+                $("#music").on("click",function (){
+                    if(player.paused){
+                        player.play();
+                        $("#music").css("background-image","url(images/jtbq_013.png)")
+                    }else{
+                        player.pause();
+                        $("#music").css("background-image","url(images/jtbq_014.png)")
+                    }
+                });
+            });
+    //---返回头部
+            $('.back-top').on('click', function () {
+                $('html,body').animate({scrollTop: 0}, 800);
+            });
+
+        });
+    </script>
+</body>
+</html>

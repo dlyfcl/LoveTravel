@@ -1,0 +1,131 @@
+/*登录*/
+.login{
+    width: 950px;
+    height: 400px;
+    margin: 100px auto;
+    padding-bottom: 20px;
+}
+.login .login-left{
+    width: 560px;
+    float: left;
+    padding: 10px;
+    height: 100%;
+}
+.login .login-left p{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 黑体;
+}
+.login .login-left .img1{
+    width: 200px;
+    height: 352px;
+    margin-top: 10px;
+    float: left;
+}
+.login .login-left .img2{
+    width: 350px;
+    height: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.login .login-left .img3{
+    width: 170px;
+    height: 180px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.login .login-left .img4{
+    width: 170px;
+    height: 180px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.login .login-left img{
+    transition: all 0.5s linear;
+}
+.login .login-left img:hover{
+    transform: scale(1.05);
+}
+.login .login-right{
+    width: 320px;
+    float: left;
+    height: 100%;
+    padding: 10px 20px;
+}
+.login .login-right p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 黑体;
+}
+.login .login-right #login-pwd,.login .login-right #login-username{
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    height: 25px;
+    outline: none;
+    margin-top: 30px;
+}
+.login .login-right #login{
+    background: lightgreen;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+.login .login-right span{
+    display: inline-block;
+    font-size: 12px;
+}
+.login .login-right #login-chx{
+    margin-left: 40px;
+}
+.login .login-right .logintype{
+    position: relative;
+    margin-top: 30px;
+    float: left;
+    width: 130px;
+    height: 40px;
+    overflow: hidden;
+}
+.login .login-right .logintype img{
+    position: absolute;
+    top: -122px;
+    left: -303px;
+}
+.login .login-right .logintype2{
+    margin-top: 30px;
+    position: relative;
+    float: right;
+    width: 170px;
+    height: 40px;
+    overflow: hidden;
+}
+.login .login-right .logintype2 img{
+    position: absolute;
+    top: -122px;
+    left: -463px;
+}
+.login .login-right ul{
+    float: right;
+    margin-top: 30px;
+}
+.login .login-right ul li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+}
+.login .login-right ul li a{
+    font-size: 12px;
+    display: inline-block;
+    width: 70px;
+}
